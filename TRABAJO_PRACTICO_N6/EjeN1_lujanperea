@@ -1,0 +1,20 @@
+Algoritmo EJERCICIO_1 
+	
+   Definir producto1, producto2, iva, subtotal, aduana, descuento Como Real;
+   
+   Escribir "Ingrese el precio del primer producto ";
+   leer producto1;
+   
+   Escribir "Ingrese el precio del segundo producto ";
+   leer producto2;
+	iva=(producto1+producto2)*0.21;
+	subtotal=(producto1+producto2)+iva;
+	
+	Escribir"El iva de los productos es:",iva;
+	Escribir"El subtotal es:",subtotal;
+	
+	aduana=subtotal+(subtotal*0.08);
+	descuento= aduana-(aduana*0.05);
+	Escribir  "El precio con el recargo de aduana es: ",aduana;
+	Escribir "El precio total con descuento es: ",descuento;
+FinAlgoritmo
