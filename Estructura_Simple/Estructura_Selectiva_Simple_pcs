@@ -1,0 +1,17 @@
+Algoritmo Selectiva_Simple
+	// averiguar el mayor de dos numeros
+	definir num1 , num2 Como Entero;
+	escribir "ingrasar el primer numero:";
+	leer num1;
+	escribir "ingrasar el segundo numero:";
+	leer num2;
+	// verificar el mayor 
+	Si num1 > num2 Entonces
+	   escribir "El mayor es:" , num1;
+
+   FinSi
+   si num2 > num1 Entonces
+	   Escribir "el mayor es :",num2;
+   FinSi
+	
+FinAlgoritmo
