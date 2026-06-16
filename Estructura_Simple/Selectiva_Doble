@@ -1,0 +1,14 @@
+Algoritmo Selectiva_Doble
+	//Ingrresar la edad y determinar si es 
+	//MAYOR o MENOR de edad
+	Definir edad Como Entero;
+	Escribir "Ingresar edad:,"; 
+	Leer edad ;
+	//selectiva doble
+	si edad >=  18 Entonces
+		Escribir "eres mayor de edad ", edad;
+	SiNo
+		Escribir "Usted es menor de edad",edad;
+	FinSi
+	
+FinAlgoritmo
